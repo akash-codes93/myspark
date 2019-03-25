@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80dacf20-aafa-4ae0-88fe-2ba2639a0013" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/friendsByAge.py" afterDir="false" />
+    <list default="true" id="80dacf20-aafa-4ae0-88fe-2ba2639a0013" name="Default Changelist" comment="friends by age">
+      <change afterPath="$PROJECT_DIR$/data/friends.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ratings-counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ratings-counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friendsByAge.py" beforeDir="false" afterPath="$PROJECT_DIR$/friendsByAge.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/friendsByAge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="240">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -156,6 +156,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="friends by age" />
+    <option name="LAST_COMMIT_MESSAGE" value="friends by age" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/ml-100k/mku.sh">
       <provider selected="true" editor-type-id="text-editor" />
@@ -183,10 +187,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/friends.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/friendsByAge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="240">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
