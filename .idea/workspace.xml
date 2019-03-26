@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80dacf20-aafa-4ae0-88fe-2ba2639a0013" name="Default Changelist" comment="friends by age">
-      <change beforePath="$PROJECT_DIR$/data/amount.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/amount.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/totalAmountSpent.py" beforeDir="false" afterPath="$PROJECT_DIR$/totalAmountSpent.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1984">
-              <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+            <state relative-caret-position="173">
+              <caret line="634" column="74" lean-forward="true" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -55,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/totalAmountSpent.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -63,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordCount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="208">
+              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -260,13 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1984">
-          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ratings-counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -274,13 +266,6 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friendsByAge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -300,10 +285,24 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="634" column="74" lean-forward="true" selection-start-line="634" selection-start-column="8" selection-end-line="634" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/friendsByAge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wordCount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="208">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -313,7 +312,7 @@
     <entry file="file://$PROJECT_DIR$/totalAmountSpent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
         </state>
       </provider>
     </entry>
