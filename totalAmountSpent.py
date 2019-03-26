@@ -20,5 +20,5 @@ totalAmountSpent = lines.reduceByKey(lambda x, y: x + y)
 results = totalAmountSpent.collect()
 
 # for word, count in wordCount.items():
-for result in results:
-    print(result)
+for _id, amount in results:
+    print(_id, amount)
