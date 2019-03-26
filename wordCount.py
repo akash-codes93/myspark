@@ -20,7 +20,7 @@ words = lines.flatMap(normalize_words)
 # manually extracting count using lambda
 # wordCount = words.countByValue()
 wordCounts = words.map(lambda x: (x, 1)).reduceByKey(lambda x, y: x + y)
-wordCountsSorted = wordCounts.map(lambda x: (x[1], x[0])).sortBy()
+wordCountsSorted = wordCounts.map(lambda x: (x[1], x[0])).sortByKey()
 
 results = wordCountsSorted.collect()
 
