@@ -17,11 +17,17 @@ lines = sc.textFile("data/words.txt")
 
 words = lines.flatMap(normalize_words)
 
+# manually extracting count using lambda
+# wordCount = words.countByValue()
+wordCounts = words.map(lambda x: (x, 1)).reduceByKey(lambda x, y: x + y)
+wordCountsSorted = wordCounts.map(lambda x: (x[1], x[0])).sortBy()
 
-wordCount = words.countByValue()
+results = wordCountsSorted.collect()
 
-for word, count in wordCount.items():
-    cleanWord = word.encode('ascii', 'ignore')
+# for word, count in wordCount.items():
+for result in results:
+    count = str(results[0])
+    cleanWord = results[1].encode('ascii', 'ignore')
 
     if cleanWord:
         print(cleanWord.decode() + " " + str(count))
