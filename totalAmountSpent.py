@@ -14,6 +14,7 @@ def parse_line(line):
 
 
 lines = sc.textFile("data/amount.csv")
+rdd = lines.map(parse_line)
 
 totalAmountSpent = lines.reduceByKey(lambda x, y: x + y)
 
