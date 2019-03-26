@@ -13,7 +13,7 @@ def parse_line(line):
     return age, num_friends
 
 
-lines = sc.textFile("data/friends.csv")
+lines = sc.textFile("data/friends.data")
 rdd = lines.map(parse_line)
 
 total_by_age = rdd.mapValues(lambda x: (x, 1)).reduceByKey(lambda x, y: (x[0] + y[0], x[1] + y[1]))
