@@ -1,20 +1,22 @@
+import re
+
 from pyspark import SparkConf, SparkContext
 
 conf = SparkConf().setMaster("local").setAppName("wordCount")
 sc = SparkContext(conf=conf)
 
 
-def parse_line(line):
-    fields = line.split(',')
-
-    age = int(fields[2])
-    num_friends = int(fields[3])
-
-    return age, num_friends
+def normalize_words(text):
+    return re.compile(r'\W+', re.UNICODE).split(text.lower())
 
 
 lines = sc.textFile("data/words.txt")
-words = lines.flatMap(lambda x: x.split())
+
+# making it better
+# words = lines.flatMap(lambda x: x.split())
+
+words = lines.flatMap(normalize_words)
+
 
 wordCount = words.countByValue()
 

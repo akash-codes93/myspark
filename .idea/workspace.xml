@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80dacf20-aafa-4ae0-88fe-2ba2639a0013" name="Default Changelist" comment="friends by age">
-      <change afterPath="$PROJECT_DIR$/data/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maxTemperature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordCount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/friendsByAge.py" beforeDir="false" afterPath="$PROJECT_DIR$/friendsByAge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordCount.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +15,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ratings-counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="7" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="192">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1984">
+              <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -40,17 +45,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordCount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="809" column="68" lean-forward="true" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="68" />
+            <state relative-caret-position="327">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -215,16 +214,6 @@
     <entry file="file://$PROJECT_DIR$/data/ml-100k/u.data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ratings-counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="7" selection-start-line="8" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/friends.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
@@ -235,13 +224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="809" column="68" lean-forward="true" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -259,10 +241,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/spark_env/Lib/site-packages/pyspark/rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1984">
+          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratings-counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wordCount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="327">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
